@@ -1,0 +1,30 @@
+html {
+    background-color: rgb(221, 218, 177);
+}
+
+a {
+    padding: 100px;
+}
+
+.menu {
+    overflow: auto;
+    background-color: rgb(59, 29, 12);
+	text-align: center;
+    padding: 10px;
+}
+
+.menu a { /* Selects all 'a' elements that are inside 'menu'. */
+    width: 50px;
+    font-weight: bolder;
+    font-size: 17px;
+    color: #ffffff;
+    text-decoration: none;
+    border-color: white;
+}
+
+.menu a:hover { /* Determines what happens to all 'a' elements (that are inside
+                  'menu') when the user hovers over it. */
+    color: #000000;
+    background-color: #cfa64c;
+    border-radius: 100px;
+}
